@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function details() {
+            var name = prompt("Enter name", "username");
+            var age = prompt("Enter Age", "12");
+            var num = prompt("Enter Number", "789849384");
+            if (name != null) {
+                document.getElementById("name").innerHTML = name;
+            }
+            if (age != null) {
+                document.getElementById("age").innerHTML = age;
+            }
+            if (num != null) {
+                document.getElementById("num").innerHTML = num;
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <table border="2px">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Mobile Number</th>
+        </tr>
+        <tr>
+            <td id="name">username</td>
+            <td id="age">userage</td>
+            <td id="num">usernumber</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <button onclick="details()">Click</button>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+#container {
+    background-color: aqua;
+}
+
+.aa,
+h1 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="radio"],
+textarea {
+    margin-left: 10%;
+    padding: 2px;
+    width: 20%;
+    margin-top: 2%;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: red;
+}

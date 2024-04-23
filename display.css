@@ -1,0 +1,10 @@
+.s {
+    background-color: red;
+    display: inline;
+}
+
+.p {
+    background-color: green;
+    display: inline;
+    width: 50%;
+}

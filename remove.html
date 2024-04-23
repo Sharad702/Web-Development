@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function removeNumbersFromArray() {
+            const inputArray = [];
+            let userInput = prompt('Enter a value for the array (type "done" to finish):');
+
+            while (userInput !== 'done') {
+                inputArray.push(userInput);
+                userInput = prompt('Enter a value for the array (type "done" to finish):');
+            }
+
+            const wordsArray = inputArray.filter(item => isNaN(item));
+            return wordsArray;
+        }
+
+        const wordsArray = removeNumbersFromArray();
+        console.log(wordsArray);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

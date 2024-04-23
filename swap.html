@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function swap(array, size) {
+            var j = 0;
+            for (var i = 0; i < size; i++) {
+                if (array[i] < 0) {
+                    if (i != j) {
+                        var temp = array[i];
+                        array[i] = array[j];
+                        array[j] = temp;
+                    }
+                    j++;
+                }
+            }
+            document.write(array);
+        }
+        var b = prompt("Enter size of array");
+        var a = prompt("Enter the elements")
+        var array = a.split(",");
+
+        swap(array, b);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

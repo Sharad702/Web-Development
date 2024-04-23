@@ -1,0 +1,13 @@
+#container {
+    text-align: center;
+    border: 2px solid;
+    background-color: yellow;
+}
+
+#inside {
+    padding: 20%;
+    text-align: center;
+    border: 2px solid black;
+    background-color: brown;
+    margin: 20%;
+}

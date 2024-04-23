@@ -1,0 +1,58 @@
+.left {
+    left: 0;
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+}
+
+.capx {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.hello {
+    text-align: center;
+}
+
+.login {
+    text-align: center;
+}
+
+.log {
+    text-align: center;
+    color: grey;
+}
+
+.right {
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: grey;
+    display: inline-block;
+}
+
+.button {
+    background-color: greenyellow;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px;
+}
+
+.wallet {
+    margin-top: 20px;
+    background-color: black;
+    border-color: greenyellow;
+    border-radius: 20px;
+    color: greenyellow;
+    align-items: center;
+}
+
+.email {
+    width: fit-content;
+    border-radius: 5px;
+    border-color: black;
+    text-align: center;
+    margin-left: 100px;
+}

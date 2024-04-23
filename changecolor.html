@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="change.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <button onclick="changecolor()">Swap</button>
+        <div id="inside">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis temporibus ipsa reprehenderit tempora alias mollitia hic illum non ab! Necessitatibus odit nihil dolor excepturi, minima adipisci tempore debitis doloribus ipsam.
+        </div>
+    </div>
+    <script>
+        function changecolor() {
+            var ucol = document.getElementById("container");
+
+            if (ucol.style.backgroundColor === 'yellow') {
+                ucol.style.backgroundColor = 'brown';
+                var uol = document.getElementById("inside");
+                uol.style.backgroundColor = 'yellow';
+            } else {
+                ucol.style.backgroundColor = 'yellow';
+                var uol = document.getElementById("inside");
+                uol.style.backgroundColor = 'brown';
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function countvowel(str, n1, n2) {
+            for (var i = n1; i <= n2; i++) {
+                if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u') {
+                    document.write(str[i]);
+                }
+            }
+        }
+
+
+        var a = prompt("enter the string");
+        var b = prompt("enter the range");
+        var c = prompt("enter end one");
+
+        countvowel(a, b, c);
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

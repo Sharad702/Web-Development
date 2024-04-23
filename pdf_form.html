@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form Sample</title>
+    <style>
+        label {
+            color: red;
+            font-size: large;
+            text-align: left;
+        }
+        
+        .a,
+        label {
+            color: red;
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body style="background-color: aqua;">
+    <h1 align="center" style="color:red;">ENTRY FORM</h1><br>
+    <form>
+        <label><b>Enter your Name:&emsp;&emsp;</b></label>
+        <input style="margin-left:3.8rem;" type="text"><br><br>
+        <label><b>Enter your Age:&emsp;&emsp;</b></label>
+        <input style="margin-left:4.8rem;width: 50px;" type="number"><br><br>
+        <label style="position:absolute;top:30%"><b>Enter your Address:&emsp;&emsp;</b></label>
+        <textarea style="position:relative;margin-left:14rem" name="" id="" cols="30" rows="10"></textarea><br><br>
+        <label><b>Sex:&emsp;&emsp;</b></label>
+        <input type="radio" style="margin-left:10rem;" name="sex"><label class="a">Female</label><br>
+        <input type="radio" style="margin-left:14rem;" name="sex"><label class="a">Male</label><br><br>
+        <label><b>Nationality:&emsp;&emsp;</b></label>
+        <select style="margin-left:6.5rem">
+            <option>(Please select a country)</option>
+            <option>Australian</option>
+            <option>Afghan</option>		
+            <option>Algerian</option>    
+            <option>American</option>   
+            <option>Indian</option>
+        </select><br><br>
+        <label><b>Languages Known:&emsp;&emsp;</b></label><br>
+        <div style="margin-left:14rem">
+            <label class="a">(can select more than once)</label><br>
+            <input type="checkbox"><label>C</label><br>
+            <input type="checkbox"><label>C++</label><br>
+            <input type="checkbox"><label>VB</label><br>
+            <input type="checkbox"><label>JAVA</label><br>
+            <input type="checkbox"><label>ASP</label><br>
+            <input type="checkbox"><label>OTHERS</label><br><br>
+        </div>
+        <label><b>Enter your Password:&emsp;&emsp;</b></label>
+        <input style="margin-left:2.4rem" type="password"><br><br>
+        <div style="margin-left:15.4rem">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

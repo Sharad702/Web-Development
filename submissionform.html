@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h2 class="main_heading">Registration Form</h2>
+            <hr>
+            <h3>Contact Information</h3>
+            <label>First Name : <input type = "text" name = "fname" required></label>
+            <br>
+            <br>
+            <label>Last Name : <input type = "text" name = "lname" requires></label>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Gender</legend>
+                <label>Male <input type="radio" name="gender" id="male"></label>
+                <label>Female <input type="radio" name="gender" id="female"></label>
+            </fieldset>
+            <br>
+            <label>Dob : <input type="date" name="dob" id="dob"></label>
+            <br>
+            <br>
+            <label>Address : <textarea name = "address" id = "address" cols = "100" rows="8"></textarea>
+        <br>
+        <br>
+        <label>Email : <input type ="email" name = "email" id = "email"></label>
+            <br>
+            <br>
+            <label>Pincode : <input type ="number" name = "pincode" id = "pincode"></label>
+            <br>
+            <br>
+            <label>State :
+                <select name="State" id="State">
+                    <option value="">---Select a State---</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="uttarakhand">Uttarakhand</option>
+                    <option value="uttarpardesh">Uttar Pardesh</option>
+                </select>
+        </label>
+            <br>
+            <br>
+            <label>Mobile Number : <input type="number" name="number" id="number"></label>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Course</legend>
+                <label>Btech <input type="radio" name="course" id="btech"></label>
+                <label>BCA <input type="radio" name="course" id="bca"></label>
+                <label>MBA <input type="radio" name="course" id="mba"></label>
+                <label>Mtech <input type="radio" name="course" id="mtech"></label>
+            </fieldset>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
